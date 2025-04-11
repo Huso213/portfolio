@@ -8,9 +8,9 @@ export const personalInfo = {
 
 export const workExperience = [
   {
-    company: "Chatbyte GmbH",
+    company: "BOOKI",
     location: "Remote",
-    position: "Développeur Full Stack",
+    position: "développeur web au sein de la start-up Booki",
     period: "Mar 2024 - Present",
     achievements: [
       "Designed and implemented business logic for AWS Lambdas using the Serverless Framework, forming the backbone of the application's functionality and ensuring seamless backend operations.",
@@ -90,13 +90,13 @@ export const skills = {
   ],
 };
 
-export const projects = [
+export const projets = [
   {
-    title: "Net Zero Carbon Emissions",
-    github: "https://github.com/rishikesh2003/Prodigi",
+    title: "BOOKI",
+    github: "https://github.com/Huso213/booki",
     description: [
-      "WiFi-RTT: Developed indoor occupancy tracking for energy optimization.",
-      "IoT Solutions: Implemented smart monitoring for energy efficiency and food waste reduction.",
+      "L’entreprise souhaite développer un site Internet qui permette aux usagers de trouver des hébergements et des activités dans la ville de leur choix.",
+      "L'interface du site avec du code HTML et CSS",
       "Real-Time Tracking: Designed systems to monitor carbon emissions and optimize resources.",
       "Data-Driven Insights: Analyzed user patterns for adaptive energy and food management.",
       "Reward Integration: Built QR-based green points system to incentivize eco-friendly actions.",

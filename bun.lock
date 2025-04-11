@@ -24,7 +24,7 @@
     },
   },
   "packages": {
-    "@ampproject/remapping": ["@ampproject/remapping@2.3.0", "", { "dependencies": { "@jridgewell/gen-mapping": "^0.3.5", "@jridgewell/trace-mapping": "^0.3.24" } }, "sha512-30iZtAPgz+LTIYoeivqYo853f02jBYSd5uGnGpkFV0M3xOt9aN73erkgYAmZU43x4VfqcnLxW9Kpg3R5LC4YYw=="],
+    "@ampprojet/remapping": ["@ampprojet/remapping@2.3.0", "", { "dependencies": { "@jridgewell/gen-mapping": "^0.3.5", "@jridgewell/trace-mapping": "^0.3.24" } }, "sha512-30iZtAPgz+LTIYoeivqYo853f02jBYSd5uGnGpkFV0M3xOt9aN73erkgYAmZU43x4VfqcnLxW9Kpg3R5LC4YYw=="],
 
     "@astrojs/compiler": ["@astrojs/compiler@2.11.0", "", {}, "sha512-zZOO7i+JhojO8qmlyR/URui6LyfHJY6m+L9nwyX5GiKD78YoRaZ5tzz6X0fkl+5bD3uwlDHayf6Oe8Fu36RKNg=="],
 
@@ -42,7 +42,7 @@
 
     "@babel/compat-data": ["@babel/compat-data@7.26.8", "", {}, "sha512-oH5UPLMWR3L2wEFLnFJ1TZXqHufiTKAiLfqw5zkhS4dKXLJ10yVztfil/twG8EDTA4F/tvVNw9nOl4ZMslB8rQ=="],
 
-    "@babel/core": ["@babel/core@7.26.10", "", { "dependencies": { "@ampproject/remapping": "^2.2.0", "@babel/code-frame": "^7.26.2", "@babel/generator": "^7.26.10", "@babel/helper-compilation-targets": "^7.26.5", "@babel/helper-module-transforms": "^7.26.0", "@babel/helpers": "^7.26.10", "@babel/parser": "^7.26.10", "@babel/template": "^7.26.9", "@babel/traverse": "^7.26.10", "@babel/types": "^7.26.10", "convert-source-map": "^2.0.0", "debug": "^4.1.0", "gensync": "^1.0.0-beta.2", "json5": "^2.2.3", "semver": "^6.3.1" } }, "sha512-vMqyb7XCDMPvJFFOaT9kxtiRh42GwlZEg1/uIgtZshS5a/8OaduUfCi7kynKgc3Tw/6Uo2D+db9qBttghhmxwQ=="],
+    "@babel/core": ["@babel/core@7.26.10", "", { "dependencies": { "@ampprojet/remapping": "^2.2.0", "@babel/code-frame": "^7.26.2", "@babel/generator": "^7.26.10", "@babel/helper-compilation-targets": "^7.26.5", "@babel/helper-module-transforms": "^7.26.0", "@babel/helpers": "^7.26.10", "@babel/parser": "^7.26.10", "@babel/template": "^7.26.9", "@babel/traverse": "^7.26.10", "@babel/types": "^7.26.10", "convert-source-map": "^2.0.0", "debug": "^4.1.0", "gensync": "^1.0.0-beta.2", "json5": "^2.2.3", "semver": "^6.3.1" } }, "sha512-vMqyb7XCDMPvJFFOaT9kxtiRh42GwlZEg1/uIgtZshS5a/8OaduUfCi7kynKgc3Tw/6Uo2D+db9qBttghhmxwQ=="],
 
     "@babel/generator": ["@babel/generator@7.27.0", "", { "dependencies": { "@babel/parser": "^7.27.0", "@babel/types": "^7.27.0", "@jridgewell/gen-mapping": "^0.3.5", "@jridgewell/trace-mapping": "^0.3.25", "jsesc": "^3.0.2" } }, "sha512-VybsKvpiN1gU1sdMZIp7FcqphVVKEwcuj02x73uvcHE0PTihx1nlBcowYWhDwjpoAXRv43+gDzyggGnn1XZhVw=="],
 

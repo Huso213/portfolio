@@ -121,16 +121,8 @@ export default function HeroSection() {
         <MotionWrapper>
           <div className="bg-gradient-to-r from-purple-500/10 to-pink-500/10 backdrop-blur-sm backdrop-filter p-4 rounded-lg border border-purple-500/20 dark:border-purple-500/10 shadow-sm">
             <p className="text-muted-foreground pl-4 py-2 mb-4 relative">
-              <span className="absolute left-0 top-0 h-full w-1 bg-gradient-to-b from-purple-500 to-pink-500 rounded-full"></span>
-              🚀 Passionate software engineer with a versatile skill set
-              spanning multiple domains. I thrive on solving complex challenges
-              across different platforms and environments, adapting quickly to
-              new technologies and methodologies. My holistic approach combines
-              technical expertise with creative problem-solving, allowing me to
-              develop solutions that are both innovative and practical. I'm
-              driven by continuous learning and a commitment to excellence,
-              whether working independently or collaborating with diverse teams
-              to create impactful, scalable solutions.
+              <span className="absolute left-0 top-0 h-full w-1 bg-gradient-to-b from-purple-500 to-pink-500 rounded-full "></span>
+              🚀 Développeur Web passionné avec un profil polyvalent alliant compétences techniques et sens créatif. Fort de formations en développement web (OpenClassrooms) et en design produit (ESAAB), je m'épanouis à résoudre des défis techniques sur divers environnements, avec une adaptabilité rapide aux nouvelles technologies. Mon approche combine rigueur méthodologique et esprit d'innovation, comme en témoigne la création du site web pour Atlas Bennes. Animé par l'apprentissage continu (maîtrise de React, MongoDB, API) et une exigence qualité, j'allie autonomie et collaboration efficace, nourrie par mes expériences passées en logistique et gestion client (LTM Transport). Mes compétences transversales (VS Code, Suite Adobe, gestion de projet) me permettent de concevoir des solutions à la fois fonctionnelles, esthétiques et évolutives.
             </p>
           </div>
         </MotionWrapper>

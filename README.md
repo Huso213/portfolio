@@ -120,10 +120,10 @@ This portfolio is designed to be easily customizable mainly by editing the data 
    };
    ```
 
-5. **Projects**: Showcase your projects
+5. **projets**: Showcase your projets
 
    ```typescript
-   export const projects = [
+   export const projets = [
      {
        title: "portfolio",
        github: "https://github.com/Huso213/portfolio.git",
@@ -133,7 +133,7 @@ This portfolio is designed to be easily customizable mainly by editing the data 
          // ...
        ],
      },
-     // Add more projects
+     // Add more projets
    ];
    ```
 
@@ -177,7 +177,7 @@ This portfolio can be deployed to any static site hosting service like Vercel, N
 
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+This projet is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ## Copyright
 
