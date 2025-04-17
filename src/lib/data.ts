@@ -1,16 +1,16 @@
 export const personalInfo = {
   name: "Huseyin Aktas",
-  location: "Île-de-France, France",
+  location: "Paris, France",
   email: "huso_95400@hotmail.fr",
   github: "https://github.com/Huso213",
-  linkedin: "https://www.linkedin.com/in/huseyin1aktas/",
+  linkedin: "www.linkedin.com/in/huseyin1aktas",
 };
 
 export const workExperience = [
   {
-    company: "BOOKI",
+    company: "Chatbyte GmbH",
     location: "Remote",
-    position: "développeur web au sein de la start-up Booki",
+    position: "Software Engineer",
     period: "Mar 2024 - Present",
     achievements: [
       "Designed and implemented business logic for AWS Lambdas using the Serverless Framework, forming the backbone of the application's functionality and ensuring seamless backend operations.",
@@ -18,24 +18,24 @@ export const workExperience = [
       "Contributed to the development and integration of a scalable CMS for managing blog content and other platform data.",
       "Reduced database costs by introducing materialized views, optimizing query performance and resource usage.",
       "Drove the integration of a custom affiliate marketing system, enabling seamless tracking and reporting of referrals and user activities.",
-      "Integrated Text-to-Speech (TTS) services for enhanced user experiences, optimizing both frontend and backend systems.",
+      "Integrated Text-to-Speech (TTS) services for enhanced user Experiences, optimizing both frontend and backend systems.",
       "Collaborated with cross-functional teams to deliver high-quality features, actively reviewing pull requests to ensure code quality, adherence to standards, and efficient implementation.",
     ],
   },
   {
     company: "DevCrew",
     location: "Coimbatore, India",
-    position: "Développeur Full Stack",
+    position: "Software Engineer",
     period: "Mar 2023 - Mar 2024",
     achievements: [
-      "Developed responsive frontend components using React.js, enhancing user experience and app performance.",
+      "Developed responsive frontend components using React.js, enhancing user Experience and app performance.",
       "Optimized JavaScript solutions to improve load times and data-fetching efficiency.",
     ],
   },
   {
     company: "Phoenitags",
     location: "Coimbatore, India",
-    position: "Développeur Full Stack",
+    position: "Software Engineering Intern",
     period: "Jan 2023 - Mar 2023",
     achievements: [
       "Built interactive UIs with React.js, focusing on reusable components and performance optimization.",
@@ -90,13 +90,13 @@ export const skills = {
   ],
 };
 
-export const projets = [
+export const projects = [
   {
-    title: "BOOKI",
-    github: "https://github.com/Huso213/booki",
+    title: "Net Zero Carbon Emissions",
+    github: "https://github.com/rishikesh2003/Prodigi",
     description: [
-      "L’entreprise souhaite développer un site Internet qui permette aux usagers de trouver des hébergements et des activités dans la ville de leur choix.",
-      "L'interface du site avec du code HTML et CSS",
+      "WiFi-RTT: Developed indoor occupancy tracking for energy optimization.",
+      "IoT Solutions: Implemented smart monitoring for energy efficiency and food waste reduction.",
       "Real-Time Tracking: Designed systems to monitor carbon emissions and optimize resources.",
       "Data-Driven Insights: Analyzed user patterns for adaptive energy and food management.",
       "Reward Integration: Built QR-based green points system to incentivize eco-friendly actions.",

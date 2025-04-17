@@ -72,8 +72,7 @@ This portfolio is designed to be easily customizable mainly by editing the data 
    };
    ```
 
-2. **Work Experience**: Add or modify your professional experience
-
+2. **Work Experience**: Add or modify your professional Experience
    ```typescript
    export const workExperience = [
      {
@@ -87,7 +86,7 @@ This portfolio is designed to be easily customizable mainly by editing the data 
          // ...
        ],
      },
-     // Add more work experiences
+     // Add more work Experiences
    ];
    ```
 
@@ -120,20 +119,20 @@ This portfolio is designed to be easily customizable mainly by editing the data 
    };
    ```
 
-5. **projets**: Showcase your projets
+5. **Projects**: Showcase your projects
 
    ```typescript
-   export const projets = [
+   export const projects = [
      {
-       title: "portfolio",
-       github: "https://github.com/Huso213/portfolio.git",
+       title: "Project Name",
+       github: "https://github.com/yourusername/project",
        description: [
          "Description point 1",
          "Description point 2",
          // ...
        ],
      },
-     // Add more projets
+     // Add more projects
    ];
    ```
 
@@ -177,7 +176,7 @@ This portfolio can be deployed to any static site hosting service like Vercel, N
 
 ## License
 
-This projet is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ## Copyright
 

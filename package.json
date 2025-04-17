@@ -7,7 +7,7 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/Huso213/portfolio.git"
+    "url": "https://github.com/rishikesh2003/my-portfolio"
   },
   "scripts": {
     "dev": "astro dev",
