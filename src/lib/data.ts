@@ -3,7 +3,7 @@ export const personalInfo = {
   location: "Paris, France",
   email: "huso_95400@hotmail.fr",
   github: "https://github.com/Huso213",
-  linkedin: "www.linkedin.com/in/huseyin1aktas",
+  linkedin: "https://www.linkedin.com/in/huseyin1aktas/",
 };
 
 export const workExperience = [
@@ -46,26 +46,29 @@ export const workExperience = [
 
 export const education = [
   {
-    institution: "Sri Krishna College of Engineering and Technology",
-    location: "Coimbatore, India",
-    degree: "B Tech Information Technology",
-    period: "Jun 2021 - Jun 2025",
-    achievements: [
-      "President of the Department of Information Technology",
-      "G20 student delegate",
-      "Organized multiple technical workshops and events",
-      "Represented my college in multiple national and international hackathons and won.",
-    ],
+    institution: "OpenClassrooms",
+    location: "A distance",
+    degree: "Bac +2 Web Developer",
+    period: "2025",
+  },
+  {
+    institution: "ESAAB-École Supérieure des Arts Appliqués de Bourgogne",
+    location: "Nevers, France",
+    degree: "Bac +2 Design de Produits",
+    period: "2014 à 2016",
   },
 ];
+
 export const skills = {
   programmingLanguages: [
-    "TypeScript",
-    "JavaScript",
-    "Python",
-    "C++",
-    "Java",
-    "Solidity",
+    "Html5",
+    "Css3",
+    "Javascript",
+    "Typescript",
+    "React.js",
+    "Node.js",
+    "Front-end",
+    "Back-end"
   ],
   frontendDevelopment: [
     "Nextjs",
