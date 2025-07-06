@@ -9,12 +9,17 @@ export const skills = {
   programmingLanguages: [
     "Html5",
     "Css3",
+    "Sass",
+    "SEO",
     "Javascript",
     "Typescript",
     "React.js",
     "Node.js",
     "Front-end",
-    "Back-end"
+    "Back-end",
+    "MongoDB",
+   " API(postman)",
+
   ],
   frontendDevelopment: [
     "Nextjs",
@@ -41,40 +46,46 @@ export const skills = {
 
 export const workExperience = [
   {
-    company: "Chatbyte GmbH",
-    location: "Remote",
-    position: "Software Engineer",
-    period: "Mar 2024 - Present",
+    company: "Mazet Messagerie",
+    location: "Gonesse, France",
+    position: "Agent d’Exploitation",
+    period: "juin 2025 - Present",
     achievements: [
-      "Designed and implemented business logic for AWS Lambdas using the Serverless Framework, forming the backbone of the application's functionality and ensuring seamless backend operations.",
-      "Built a comprehensive admin panel for managing content, user data, and analytics.",
-      "Contributed to the development and integration of a scalable CMS for managing blog content and other platform data.",
-      "Reduced database costs by introducing materialized views, optimizing query performance and resource usage.",
-      "Drove the integration of a custom affiliate marketing system, enabling seamless tracking and reporting of referrals and user activities.",
-      "Integrated Text-to-Speech (TTS) services for enhanced user Experiences, optimizing both frontend and backend systems.",
-      "Collaborated with cross-functional teams to deliver high-quality features, actively reviewing pull requests to ensure code quality, adherence to standards, and efficient implementation.",
+      "- Coordination des plannings : organisation des équipes et des moyens (humains, techniques, logistiques) pour garantir un service irréprochable",
+      "- Suivi en temps réel des opérations : ajustement des ressources face aux imprévus et maintien des objectifs de performance.",
+      "- Gestion des incidents : résolution rapide des problèmes pour minimiser l'impact sur les opérations et la satisfaction client.",
+      "- Communication dynamique avec les équipes, clients, et partenaires pour anticiper et résoudre les problématiques.",
+      "- Optimisation des coûts et des délais, dans le respect des procédures et des normes de sécurité.",
+      "- Analyse des performances et mise en place d'actions correctives pour améliorer la qualité de service.",
     ],
   },
   {
-    company: "DevCrew",
-    location: "Coimbatore, India",
-    position: "Software Engineer",
-    period: "Mar 2023 - Mar 2024",
+    company: "Atlas Bennes",
+    location: "Le Blanc-Mesnil, France",
+    position: "Développeur Web",
+    period: "Mar 2025 - Mar 2025",
     achievements: [
-      "Developed responsive frontend components using React.js, enhancing user Experience and app performance.",
-      "Optimized JavaScript solutions to improve load times and data-fetching efficiency.",
+      "Creation site web pour la societe Atlas Bennes, site vitrine pour la location de benne.",
+      "Desktop et mobile, avec un design responsive.",
     ],
   },
+
   {
-    company: "Phoenitags",
-    location: "Coimbatore, India",
-    position: "Software Engineering Intern",
-    period: "Jan 2023 - Mar 2023",
+    company: "LTM TRANSPORT",
+    location: "SARCELLES, France",
+    position: "Assistant logistique relation client",
+    period: "Juin 2019 à Janvier 2021",
     achievements: [
-      "Built interactive UIs with React.js, focusing on reusable components and performance optimization.",
-      "Implemented JavaScript-based features like user authentication and real-time updates.",
+      "Gerer les appels.",
+      "Traitement et la gestion des receptions.",
+      "Enregistrement des commandes.",
+      "Gestion des litiges, retours, et réclamations, stocks marchandise.",
+      "Gestion de l’inventaire.",
+      "Mise en forme et ordonnancement des tournées, gestion des plannings des chauffeurs.",
     ],
   },
+
+
 ];
 
 
@@ -94,80 +105,53 @@ export const education = [
 ];
 
 
+//P2 BOOKI
+export const projects= [
+  {
+    title: "BOOKI - OpenClassrooms",
+    github: "https://github.com/Huso213/booki",
+    lien: "https://booki-sandy.vercel.app/",
+    description: [
+      "Booki est une plateforme web permettant aux utilisateurs de trouver des hébergements et des activités dans la ville de leur choix. Mon rôle consiste à intégrer l'interface du site à partir de la maquette fournie par OpenClassrooms, en utilisant HTML et CSS. Le site est entièrement responsive, s'adaptant à tous les types d'écrans. J'ai également mis en place une navigation fluide entre les pages.",
+    ],
+    imageUrl: "../../dist/booki.png",
+  },
+//p5 Kanap
+ {
+    title: "KANAP - OpenClassrooms",
+    github: "https://github.com/Huso213/P5-Dev-Web-Kanap",
+    lien: "https://kanaphuseyin.vercel.app/",
+    description: [
+      "Le projet consiste à développer un site e-commerce dynamique pour Kanap, une marque de canapés, en connectant le front-end (déjà intégré en HTML/CSS) à une API back-end via JavaScript pur.",
+     "L'objectif est d'afficher les produits, gérer le panier et la commande, sans utiliser de frameworks. Les livrables incluent le code fonctionnel et un plan de test, avec une soutenance axée sur les interactions avec l'API, le DOM et le localStorage.",
+    ],
+    imageUrl: "../../dist/kanap.png",
+  },
+//Hot takes P6
+  {
+    title: "HOT TAKES - OpenClassrooms",
+    github: "https://github.com/Huso213/Web-Developer-P6",
+   // lien: "https://zhsdd-ax2vvjh8s-huso213s-projects.vercel.app/",
+    description: [
+      "Le projet consiste à développer une API sécurisée pour l'application Hot Takes de Piiquante, une marque de sauces piquantes, permettant aux utilisateurs de partager et noter des sauces. L'API doit gérer l'authentification, les opérations CRUD et protéger les données (RGPD/OWASP), sans front-end (déjà codé en Angular). Les livrables incluent le code back-end (Node.js) et une démonstration des mesures de sécurité, avec une soutenance axée sur l'architecture et la protection des mots de passe.",
+    ],
+    imageUrl: "../../dist/hot_takes_XL.webp",
+  },
+  //KAsa projet 7
+  {
+    title: "Kasa - OpenClassrooms",
+    github: "https://github.com/Huso213/kasa",
+    lien: "https://zhsdd-ax2vvjh8s-huso213s-projects.vercel.app/",
+    description: [
+      "Mission freelance pour moderniser la plateforme de location d’appartements entre particuliers, en remplaçant l’ancien site ASP.NET par une application React performante. Développement des composants UI (galerie photos, collapses interactifs) et des routes avec React Router, en suivant des maquettes Figma responsives. Intégration des données via un fichier JSON temporaire en attendant le back-end Node.js. Objectif : livrer un code propre, modulaire et respectant les coding guidelines de Kasa. Mission 100% front-end en React.",
+    ],
+    imageUrl: "../../dist/kasa.png",
+  },
 
-export const projects = [
-  {
-    title: "Net Zero Carbon Emissions",
-    github: "https://github.com/rishikesh2003/Prodigi",
-    description: [
-      "WiFi-RTT: Developed indoor occupancy tracking for energy optimization.",
-      "IoT Solutions: Implemented smart monitoring for energy efficiency and food waste reduction.",
-      "Real-Time Tracking: Designed systems to monitor carbon emissions and optimize resources.",
-      "Data-Driven Insights: Analyzed user patterns for adaptive energy and food management.",
-      "Reward Integration: Built QR-based green points system to incentivize eco-friendly actions.",
-    ],
-  },
-  {
-    title: "Mental Aarog",
-    github: "https://github.com/rishikesh2003/mental-aarog",
-    description: [
-      "A holistic mental health app leveraging AI and blockchain for early detection and personalized solutions for depression.",
-      "Features include social media analysis (ML-based sentiment tracking), PHQ-9 assessments, smartwatch integration for sleep and activity data, guided meditation, and smart suggestions for food, travel, music, and movies.",
-      "Developed a rewards system using MAG crypto token on Ethereum, enabling user engagement through in-app incentives.",
-      "Secure storage implemented via web3.storage, IPFS, and FileCoin.",
-      "Built with React, Supabase, Node.js, Flask, and Solidity, showcasing seamless integration of health tech and blockchain.",
-    ],
-  },
 ];
 
 export const awards = [
   {
-    name: "IEEE YESIST12 Hackathon",
-    issuer: "IEEE",
-    date: "Sep 2022",
-    type: "International",
-    position: "Second Place",
-  },
-  {
-    name: "Prodigi Cognizant Hackathon",
-    issuer: "Cognizant",
-    date: "Feb 2023",
-    type: "National",
-    position: "Second Runner-up",
-  },
-  {
-    name: "Cisco Thingqbator Hackathon",
-    issuer: "Cisco",
-    date: "Jan 2023",
-    type: "National",
-    position: "First Runner-up",
-  },
-  {
-    name: "Innovators Day",
-    issuer: "Sri Manakula Vinayagar Engineering College, Pondicherry",
-    date: "Sep 2022",
-    type: "National",
-    position: "First Prize",
-  },
-  {
-    name: "KG Hackfest'22",
-    issuer: "KGiSL Institute of Technology, Coimbatore",
-    date: "Sep 2022",
-    type: "National",
-    position: "Second Prize",
-  },
-  {
-    name: "Innohacks'22",
-    issuer: "Innogeeks, KIET Group of Institutions, New Delhi",
-    date: "May 2022",
-    type: "National",
-    position: "Second Runner-up",
-  },
-  {
-    name: "Hack @ SKCET",
-    issuer: "Hackclub SKCET, SKCET, Coimbatore",
-    date: "Feb 2022",
-    type: "National",
-    position: "Most Impactful Hack",
+    name: "Construisons ensemble votre projet",
   },
 ];

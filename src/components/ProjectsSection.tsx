@@ -46,7 +46,18 @@ export default function ProjectsSection() {
                       </motion.li>
                     ))}
                   </ul>
-                </CardContent>
+                  {project.imageUrl && (
+                    <motion.img
+                      src={project.imageUrl}
+                      alt={project.title}
+                      className="mt-4 rounded-lg shadow-lg w-full h-auto"
+                      initial={{ opacity: 0, scale: 0.95 }}
+                      whileInView={{ opacity: 1, scale: 1 }}
+                      transition={{ duration: 0.3 }}
+                      viewport={{ once: true }}
+                    />
+                  )}
+                  </CardContent>
                 <CardFooter className="flex justify-center md:justify-start items-center border-t border-border/30 bg-gradient-to-r from-purple-500/5 to-pink-500/5">
                   <motion.a
                     href={project.github}
@@ -58,6 +69,20 @@ export default function ProjectsSection() {
                   >
                     <Github className="h-4 w-4 mr-2 group-hover/link:rotate-12 transition-transform duration-300" />
                     View on GitHub 🔗
+
+                  </motion.a>
+
+                  <motion.a
+                    href={project.lien}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="flex items-center text-sm text-muted-foreground hover:text-purple-500 transition-colors group/link pt-8"
+                    whileHover={{ scale: 1.05 }}
+                    whileTap={{ scale: 0.95 }}
+                  >
+                    <span className="h-4 w-4 mr-2 group-hover/link:rotate-12 transition-transform duration-300">🔗</span>
+                    Lien site web
+
                   </motion.a>
                 </CardFooter>
               </GlassCard>
