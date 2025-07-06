@@ -112,7 +112,7 @@ export const projects= [
     github: "https://github.com/Huso213/booki",
     lien: "https://booki-sandy.vercel.app/",
     description: [
-      "Booki est une plateforme web permettant aux utilisateurs de trouver des hébergements et des activités dans la ville de leur choix. Mon rôle consiste à intégrer l'interface du site à partir de la maquette fournie par OpenClassrooms, en utilisant HTML et CSS. Le site est entièrement responsive, s'adaptant à tous les types d'écrans. J'ai également mis en place une navigation fluide entre les pages.",
+      "Booki est une plateforme web permettant aux utilisateurs de trouver des hébergements et des activités dans la ville de leur choix.", "Mon rôle consiste à intégrer l'interface du site à partir de la maquette fournie par OpenClassrooms, en utilisant HTML et CSS. Le site est entièrement responsive, s'adaptant à tous les types d'écrans.", "J'ai également mis en place une navigation fluide entre les pages.",
     ],
     imageUrl: "../../dist/booki.png",
   },
@@ -123,7 +123,8 @@ export const projects= [
     lien: "https://kanaphuseyin.vercel.app/",
     description: [
       "Le projet consiste à développer un site e-commerce dynamique pour Kanap, une marque de canapés, en connectant le front-end (déjà intégré en HTML/CSS) à une API back-end via JavaScript pur.",
-     "L'objectif est d'afficher les produits, gérer le panier et la commande, sans utiliser de frameworks. Les livrables incluent le code fonctionnel et un plan de test, avec une soutenance axée sur les interactions avec l'API, le DOM et le localStorage.",
+     "L'objectif est d'afficher les produits, gérer le panier et la commande, sans utiliser de frameworks.",
+     "Les livrables incluent le code fonctionnel et un plan de test, avec une soutenance axée sur les interactions avec l'API, le DOM et le localStorage.",
     ],
     imageUrl: "../../dist/kanap.png",
   },
