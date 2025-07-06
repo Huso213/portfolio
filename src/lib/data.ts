@@ -5,6 +5,39 @@ export const personalInfo = {
   github: "https://github.com/Huso213",
   linkedin: "https://www.linkedin.com/in/huseyin1aktas/",
 };
+export const skills = {
+  programmingLanguages: [
+    "Html5",
+    "Css3",
+    "Javascript",
+    "Typescript",
+    "React.js",
+    "Node.js",
+    "Front-end",
+    "Back-end"
+  ],
+  frontendDevelopment: [
+    "Nextjs",
+    "Reactjs",
+    "React Native",
+    "Shadcn UI",
+    "Tailwind CSS",
+    "HTML",
+    "CSS",
+  ],
+  backendDevelopment: ["Nodejs", "Expressjs"],
+  databaseAndStorage: ["PostgreSQL", "Drizzle (ORM)"],
+  cloudAndDevOps: ["AWS"],
+  toolsAndServices: [
+    "Clerk (Auth)",
+    "Sanity (CMS)",
+    "Tinybird (analytics)",
+    "Zod",
+    "Sentry",
+    "Mixpanel",
+    "Trigger.dev",
+  ],
+};
 
 export const workExperience = [
   {
@@ -44,6 +77,7 @@ export const workExperience = [
   },
 ];
 
+
 export const education = [
   {
     institution: "OpenClassrooms",
@@ -59,39 +93,7 @@ export const education = [
   },
 ];
 
-export const skills = {
-  programmingLanguages: [
-    "Html5",
-    "Css3",
-    "Javascript",
-    "Typescript",
-    "React.js",
-    "Node.js",
-    "Front-end",
-    "Back-end"
-  ],
-  frontendDevelopment: [
-    "Nextjs",
-    "Reactjs",
-    "React Native",
-    "Shadcn UI",
-    "Tailwind CSS",
-    "HTML",
-    "CSS",
-  ],
-  backendDevelopment: ["Nodejs", "Expressjs"],
-  databaseAndStorage: ["PostgreSQL", "Drizzle (ORM)"],
-  cloudAndDevOps: ["AWS"],
-  toolsAndServices: [
-    "Clerk (Auth)",
-    "Sanity (CMS)",
-    "Tinybird (analytics)",
-    "Zod",
-    "Sentry",
-    "Mixpanel",
-    "Trigger.dev",
-  ],
-};
+
 
 export const projects = [
   {
